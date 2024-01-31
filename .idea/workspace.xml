@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfeb87ac-fc65-4d75-b629-b30ab91e1a5b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/ConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ConfirmationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/OrderAboutRentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/OrderAboutRentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/OrderFioAddressPhonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/OrderFioAddressPhonePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/QaScooterMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/QaScooterMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,12 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eefremov\IdeaProjects\practicum_sprint_4" />
+      <recent name="C:\Users\eefremov\IdeaProjects\practicum_sprint_4\src\test\java" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.ScooterOrderTest">
     <configuration name="ScooterAccordionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicum_sprint_4" />
@@ -88,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706695363314</updated>
-      <workItem from="1706695365738" duration="559000" />
+      <workItem from="1706695365738" duration="841000" />
     </task>
     <servers />
   </component>
@@ -100,7 +100,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
