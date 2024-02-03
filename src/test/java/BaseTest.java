@@ -9,7 +9,6 @@ public class BaseTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "chromedriver114.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://qa-scooter.praktikum-services.ru/");

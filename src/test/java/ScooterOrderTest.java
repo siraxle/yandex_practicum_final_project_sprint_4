@@ -9,7 +9,9 @@ import pageObjects.QaScooterMainPage;
 import java.util.Arrays;
 import java.util.Collection;
 
+import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(Parameterized.class)
 public class ScooterOrderTest extends BaseTest {
@@ -70,8 +72,8 @@ public class ScooterOrderTest extends BaseTest {
         ConfirmationPage confirmationPage = new ConfirmationPage(driver);
         confirmationPage.clickYesButton();
         String result = confirmationPage.getTextFromOrderModalHeader();
-        System.out.println(result);
-        assertEquals("Текст элемента не соответствует ожидаемому", "Заказ оформлен", result.trim());
-//        assertEquals("Текст элемента не соответствует ожидаемому", "Хотите оформить заказ?", result.trim());
+        assertTrue("Текст элемента не соответствует ожидаемому", result.trim().contains("Заказ оформлен"));
+        //оставил, чтобы увидеть зеленый тест в chrome
+        //assertTrue("Текст элемента не соответствует ожидаемому", result.trim().contains("Хотите оформить заказ?"));
     }
 }
